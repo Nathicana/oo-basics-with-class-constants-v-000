@@ -16,7 +16,7 @@ GENRES = []
     @genre = genre
 
     GENRES << genre.uniq
-    
+
 
   end
 end
