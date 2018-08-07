@@ -15,7 +15,7 @@ GENRES = []
   def genre=(genre)
     @genre = genre
 
-    GENRES << genre unless GENRES.include?(self)
+    GENRES << genre if genre.uniq
 
 
   end
